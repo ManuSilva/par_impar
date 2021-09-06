@@ -18,7 +18,7 @@ function App(props: Clicks): JSX.Element {
 
     <View style={styles_text.container}>
       <Text style={{ fontSize: 39, color: "black" }}>{props.texto}</Text>
-      <Text style={{ fontSize: 29, color: "green" }}>Quatidade de Click: {props.count}</Text>
+      <Text style={{ fontSize: 25, color: "green" }}>Quatidade de Clicks: {props.count}</Text>
       <StatusBar style="auto" />
 
     </View>
